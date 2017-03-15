@@ -1,3 +1,4 @@
+[![NuGet version](https://badge.fury.io/nu/Codinlab.AspNetCore.Authentication.AdfsOAuth.svg)](https://badge.fury.io/nu/Codinlab.AspNetCore.Authentication.AdfsOAuth)
 # AdfsOAuth
 ASP.NET Core middleware that enables an application to support the Microsoft ADFS's OAuth 2.0 authentication workflow.
 OAuth2 protocol is supported since ADFS 3.0 (Windows Server 2012 R2).
