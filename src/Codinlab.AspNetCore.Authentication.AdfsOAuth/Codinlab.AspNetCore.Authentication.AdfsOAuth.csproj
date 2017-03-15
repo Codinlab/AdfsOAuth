@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Thierry Fleury</Authors>
+    <Company>Codinlab</Company>
+    <Description>ASP.NET Core middleware that enables an application to support the Microsoft ADFS's OAuth 2.0 authentication workflow.</Description>
+    <Copyright>Copyright (c) 2017 Codinlab</Copyright>
+    <PackageLicenseUrl>https://github.com/Codinlab/AdfsOAuth/raw/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Codinlab/AdfsOAuth</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Codinlab/AdfsOAuth.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>aspnetcore authentication security adfs</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="1.1.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.1.3" />
+  </ItemGroup>
+
+</Project>
