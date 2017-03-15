@@ -8,6 +8,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codinlab.AspNetCore.Authentication.AdfsOAuth", "src\Codinlab.AspNetCore.Authentication.AdfsOAuth\Codinlab.AspNetCore.Authentication.AdfsOAuth.csproj", "{87042B01-5301-4D80-BEBE-B52DE6F3AE70}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{21EDA8C5-FF90-4460-AAD3-450B708AD69F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
