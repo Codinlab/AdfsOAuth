@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFrameworks>net451;netstandard1.4</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyTitle>Codinlab.AspNetCore.Authentication.AdfsOAuth</AssemblyTitle>
     <Authors>Thierry Fleury</Authors>
     <Company>Codinlab</Company>
     <Description>ASP.NET Core middleware that enables an application to support the Microsoft ADFS's OAuth 2.0 authentication workflow.</Description>
