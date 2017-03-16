@@ -1,3 +1,4 @@
+
 [![NuGet version](https://badge.fury.io/nu/Codinlab.AspNetCore.Authentication.AdfsOAuth.svg)](https://badge.fury.io/nu/Codinlab.AspNetCore.Authentication.AdfsOAuth)
 # AdfsOAuth
 ASP.NET Core middleware that enables an application to support the Microsoft ADFS's OAuth 2.0 authentication workflow.
@@ -26,6 +27,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
     ...
     app.UseAdfsOAuthAuthentication(new AdfsOAuthOptions("ad.adtest.local")  // Your ADFS server hostname
     {
+        AutomaticAuthenticate = true,
         ClientUri = "https://localhost:44303",                  // Registered on your ADFS server as Relying party trust
         ClientId = "21495a95-35ef-48ec-80b4-bce8ac430b9f"       // AdfsClient's ClientId registered on your ADFS server
     });
