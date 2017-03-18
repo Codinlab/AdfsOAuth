@@ -1,4 +1,3 @@
-
 [![NuGet version](https://badge.fury.io/nu/Codinlab.AspNetCore.Authentication.AdfsOAuth.svg)](https://badge.fury.io/nu/Codinlab.AspNetCore.Authentication.AdfsOAuth)
 # AdfsOAuth
 ASP.NET Core middleware that enables an application to support the Microsoft ADFS's OAuth 2.0 authentication workflow.
@@ -39,7 +38,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
 By default, the redirect URI is "[*ClientUri*]/signin-adfs". It can be changed in the options.
 
 ## A word of warning
-As signing certificates are auto-renewed by default by ADFS server, and there is  - for now - no easy way to retrieve the signing certificate from the server, the token issued by the server is **not verfied**.
+As signing certificates are auto-renewed by default by ADFS server, and there is  - for now - no easy way to retrieve the signing certificate from the server, the token issued by the server is **not verified**.
 
 ## References / alternatives
 * [Using ADFS 3.0 with MVC 6 (ASP.NET 5)](http://www.carbon60.com/blog/using-adfs-3-0-with-mvc-6-asp-net-5)
